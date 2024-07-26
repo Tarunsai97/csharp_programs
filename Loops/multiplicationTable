@@ -1,0 +1,19 @@
+using System;
+
+
+namespace Loops
+{
+    class Loop
+    {
+        public static void Main(string[] args)
+        {
+            Console.Write("Enter a number to print multiplication table : ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            for(int i = 1; i <= 12; i++)
+            {
+                Console.WriteLine(Convert.ToString(num)+ " X " + Convert.ToString(i) +" = "+ Convert.ToString(i * num));
+            }
+            Console.ReadLine();
+        }
+    }
+}
