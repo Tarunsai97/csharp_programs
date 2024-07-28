@@ -12,8 +12,8 @@ namespace ArrayOp{
         Array.Sort(numbers);
         int min = numbers[0];
         int max = numbers[indexLength-1];
-        Console.WriteLine($"{min}");
-        Console.WriteLine($"{max}");
+        Console.WriteLine($"minimum value : {min}");
+        Console.WriteLine($"maximum value : {max}");
       }
     }
 }
